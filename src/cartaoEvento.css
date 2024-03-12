@@ -1,0 +1,215 @@
+.retrospectivaContainer {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  text-align: center;
+  color: #333;
+}
+
+.formulario {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.labelText {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.inputCampo {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.botaoFormulario {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.botaoFormulario:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.retrospectivaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.retrospectivaConteudo {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tituloCentralizado {
+  text-align: center;
+}
+
+.cartaoEventoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cartaoEvento {
+  max-width: 300px;
+  margin: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mostrarMaisBotao,
+.verDetalhesBotao {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mostrarMaisBotao:hover,
+.verDetalhesBotao:hover {
+  background-color: #45a049;
+}
+
+
+.paginaCentralizada {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tituloCentralizado {
+  text-align: center;
+}
+
+.cartaoEventoContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cartaoEvento {
+  width: 30%;
+  margin: 10px;
+}
+
+.cartaoEventoContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cartaoEvento {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px; /* Adiciona algum espaço entre os cartões */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px; /* Define uma largura fixa para cada cartão (ajuste conforme necessário) */
+}
+
+.cartaoEvento h3 {
+  margin-top: 0;
+}
+
+.cartaoEvento h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.cartaoEvento img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 8px;
+}
+
+.cartaoEvento p {
+  margin: 8px 0 0;
+}
+
+.detalhesEventoPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding-top: 50px;
+}
+
+.detalhesEventoContainer {
+  background-color: #f4f4f4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.detalhesEventoContainer img {
+  max-width: 100%;
+  height: auto;
+}
+
+.eventoDescricao {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.voltarLink {
+  display: block;
+  margin-bottom: 10px;
+  color: #3498db;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.voltarContainer {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.voltarLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #3498db;
+}
+
+.iconeCasa {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.destaque-titulo {
+  font-weight: bold;
+  color: #007bff; 
+}
